@@ -17,6 +17,12 @@ spring:
 server:
   port: 8080
 
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
 app:
   jwt:
     secret: 9ca95ad7a0b04d398670f7db3bb21aeb9ca95ad7a0b04d398670f7db3bb21aeb
